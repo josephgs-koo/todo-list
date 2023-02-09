@@ -5,7 +5,7 @@ import Day from "./pages/Day";
 import Week from "./pages/Week";
 import Popup from "./components/Popup";
 import styled from "styled-components";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Back = styled.div`
 	width: 100%;

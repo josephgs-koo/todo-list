@@ -20,7 +20,7 @@ const MakeListContainer = styled.div`
 		width: 90%;
 
 		> span {
-			font-size: 2.5rem;
+			font-size: 2rem;
 			margin-left: 30px;
 		}
 	}
@@ -119,9 +119,7 @@ const Day = ({ date, setPopup, setCurrentItem, isUpdate }) => {
 			<MakeListContainer>
 				<div>
 					<span>
-						{date.getDate() < 10
-							? `0${date.getDate()}`
-							: date.getDate()}
+						{date.toDateString().split(" ").slice(1, 3).join(" ")}
 					</span>
 				</div>
 				<div>
