@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "Daily coding",
+      "checked": false,
+      "id": 1
+    },
+    {
+      "title": "Todo-list 만들기",
+      "checked": false,
+      "id": 2
+    },
+    {
+      "title": "알고리즘 연습",
+      "checked": false,
+      "id": 3
+    }
+  ]
+}
